@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('/', 'LoginController@index');
 Route::get('Login', 'LoginController@index');
 Route::get('ApplyOnline', 'ApplyOnlineController@index');
+Route::get('SchoolRegistration', 'ApplyOnlineController@schoolRegistration');
