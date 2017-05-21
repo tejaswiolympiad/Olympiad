@@ -12,7 +12,7 @@ class ApplyOnlineController extends Controller {
 	return view('applyonline');
    }
    public function schoolRegistration(){
-	return view('schoolRegistration');	   
+	return view('schoolregistration');	   
    }
   
 }

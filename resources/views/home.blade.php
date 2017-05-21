@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Olympiad NGO </title>
   <link rel="stylesheet" href="{{ asset('public/css/bootstrap.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('public/css/login.css') }}" />  
-  <script src="{{ asset('public/js/jquery.min.js') }}"></script>
+  <link rel="stylesheet" href="{{ asset('public/css/style.css') }}" />
+   <link rel="stylesheet" href="{{ asset('public/css/ font-awesome.min.css') }}" /> 
+   <script src="{{ asset('public/js/jquery.min.js') }}"></script>
   <script src="{{ asset('public/js/bootstrap.min.js') }}"></script>	
   <script src="{{ asset('public/js/angular.min.js') }}"></script>
-  <link rel="stylesheet" href="{{ asset('public/css/style.css') }}" />
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -53,14 +53,14 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active" style="margin-top:100px;">
-        <img src="{{asset('public/images/slider/1.JPG')}}" alt="New York" width="1200" height="700" class="slidetop">
+        <img src="{{asset('public/images/slider/1.jpg')}}"  width="1200" height="700" class="slidetop">
         <div class="carousel-caption">
           <h3>New York</h3>
           <p>The atmosphere in New York is lorem ipsum.</p>
         </div>      
       </div>
       <div class="item" style="margin-top:100px;">
-        <img src="{{asset('public/images/slider/2.JPG')}}" alt="Chicago" width="1200" height="700" class="slidetop">
+        <img src="{{asset('public/images/slider/2.jpg')}}"  width="1200" height="700" class="slidetop">
         <div class="carousel-caption">
           <h3>Chicago</h3>
           <p>Thank you, Chicago - A night we won't forget.</p>
@@ -68,26 +68,20 @@
       </div>
     
       <div class="item" style="margin-top:100px;">
-        <img src="{{asset('public/images/slider/3.JPG')}}" alt="Los Angeles" width="1200" height="700" >
+        <img src="{{asset('public/images/slider/3.jpg')}}"  width="1200" height="700" >
         <div class="carousel-caption">
           <h3>LA</h3>
           <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
         </div>      
       </div>
       <div class="item" style="margin-top:100px;">
-        <img src="{{asset('public/images/slider/4.JPG')}}" alt="Los Angeles" width="1200" height="700" >
+        <img src="{{asset('public/images/slider/4.jpg')}}"  width="1200" height="700" >
         <div class="carousel-caption">
           <h3>LA</h3>
           <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
         </div>      
       </div>
-      <div class="item" style="margin-top:100px;">
-        <img src="{{asset('public/images/slider/5.JPG')}}" alt="Los Angeles" width="1200" height="700" >
-        <div class="carousel-caption">
-          <h3>LA</h3>
-          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
-        </div>      
-      </div>	  
+	  
     </div>
 
     <!-- Left and right controls -->
@@ -219,10 +213,10 @@
   </a>
           <div class="wrap">
             <ul class="nav navbar-nav social">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Contact us</a></li>
+        <li><a href="#myPage">Home</a></li>
+        <li><a href="#band">About us</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a href="#contact">Contact us</a></li>
 				<li><a href="#">Terms & Conditions</a></li>
             </ul>
         </div>
